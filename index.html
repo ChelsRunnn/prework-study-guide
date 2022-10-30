@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -22,8 +23,26 @@
 
       <section class="card" id="css-section">
         <h2>CSS</h2>
+        <h3>The 3 types of CSS</h3>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>Inline: used to style a specific, single element directly in the HTML file. </li>
+          <li>Internal:used to style an entire stylesheet directly in the HTML file using a style element in the head element (meta code)</li>
+          <li>External: uses a seperate, linked file (linked in the HTML file's head) and is the most common/preferred method</li>
+        </ul>
+        <h3>Terms and Commands</h3>
+        <ul>
+          <li>Margin: space outside of an element, not visable on the page. Increasing value adds a buffer, 0 value indicates NO extra space around the element</li>
+          <li>Padding: space inside the element. Increasing value makes the entire element bigger.</li>
+          <li>* symbol: used to apply a rule to ALL the elements visible on the page</li>
+          <li>Link External CSS: in the head section of HTML file, after the final META but before the TITLE</li>
+          <li>Rel: specifies the relationship between current doc (ie the HTML file) and the linked doc (ie external CSS stylesheet)</li>
+          <li>Href: specifies the location (URL) of the external, linked resource  and always starts with ./ (ie ./assets/style.css)</li>
+        </ul>
+        <h3>Concepts and Framework</h3>
+        <ul>
+          <li>CSS Box Model: every HTML element is a box. Each boxed element is surrounded by another box element, as shown below</li>
+          <img src="./assets/CSSBoxModel.png" alt="Box Model diagram.">
+          <li>DRY Code: Do Not Repeat Yourself encourages reusing/shairng code to reduce # of lines that need to be written or maintained. Keeps code as simple and small as possible</li>
         </ul>
       </section>
 
